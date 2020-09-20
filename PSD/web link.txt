@@ -1,0 +1,8 @@
+1.https://necolas.github.io/normalize.css/8.0.1/normalize.css
+2.https://github.com/aFarkas/html5shiv
+3.https://github.com/scottjehl/Respond
+4.https://github.com/keithclark/selectivizr
+
+5.contact section
+ for get input data web link
+www.formspree.io

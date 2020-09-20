@@ -1,0 +1,12 @@
+@media only screen and (max-width:1024px){
+    .row{width: 94%;
+        margin: 0 1.5rem;
+    }
+    html{
+       font-size:  80%;
+    }
+    .sticky{
+        width: 98%;
+    }
+    
+}

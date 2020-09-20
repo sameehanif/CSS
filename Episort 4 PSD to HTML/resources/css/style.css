@@ -1,0 +1,121 @@
+/*================*/
+/*Basic Setup */
+/*================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size:62.5%}
+body{
+ font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+ul li{
+    list-style-type: none;
+}
+/*==============*/
+/* Heading */
+/*==============*/
+h1{
+    font-size: 4.2rem;
+    color:#fff;
+}
+/*========================*/
+/*Reuseable Component */
+/*=========================*/
+.row{
+    width: 114rem;
+    margin: 0 auto;  
+}
+/*===========*/
+/*Buttom */
+/*===========*/
+.btn-hero:link,
+.btn-hero:visited,
+.btn{
+    background: #333;
+    border-bottom: .3rem, solid #000;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.0rem 3.0rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin: 4.5rem;    
+}
+
+/*===================*/
+/*Header Section*/
+/*===================*/
+header
+{
+    background:linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)),url(../img/hero-bg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+}
+.logo
+    {width: auto;
+    height: 3.5rem;
+    margin-top: 3.5rem;
+    float: left;
+}
+/*=====================*/
+/*Main Navigation */
+/*=====================*/
+.main-nav{
+        float: right;
+         margin-top: 4.5rem;
+}
+.main-nav li
+           {
+        display: inline-block;
+        margin-left: 1.5rem; 
+}
+.main-nav li:first-child
+{
+        margin-left:0 ; 
+}
+.main-nav li a:link,
+.main-nav li a:visited
+   {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(100, 58, 121, 0);
+    padding: 0.3rem 1.6rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transform: .3s;
+    
+}
+
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited
+{
+    background: #643a79;
+    
+}
+.main-nav li.active
+            {background: #643a79;
+}
+.hero-text-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;  
+}
+
+.btn-hero:link,
+.btn-hero:visited
+{
+    background: #eb7d4b;
+    border-color: #c86a40;
+    font-size: 2.6rem;
+}

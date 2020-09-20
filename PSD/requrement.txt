@@ -1,0 +1,13 @@
+Requrements
+1.HTML
+2.CSS
+3.jQuery optional expail this series
+vendors
+1.Font awesome <script src="https://kit.fontawesome.com/f16ba26eba.js" crossorigin="anonymous"></script>
+2.http://www.responsivegridsystem.com/layouts/
+3.https://necolas.github.io/normalize.css/8.0.1/normalize.css
+4.html5shiv
+https://github.com/aFarkas/html5shiv
+5.respond Js
+https://github.com/scottjehl/Respond
+6.Selectivizr

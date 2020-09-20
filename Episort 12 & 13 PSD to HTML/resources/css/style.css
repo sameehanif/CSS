@@ -1,0 +1,377 @@
+/*================*/
+/*Basic Setup */
+/*================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size: 100%;
+scroll-behavior: smooth;}
+body{
+ font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.6rem;
+}
+ul li{
+    list-style-type: none;
+}
+/*==============*/
+/* Heading */
+/*==============*/
+h1{
+    font-size:3rem;
+    color:#000;
+}
+.clear-fix::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+/*========================*/
+/*Reuseable Component */
+/*=========================*/
+.row{
+    width: 71.25rem;
+    margin: 0 auto; 
+}
+section
+{padding: 8rem 0;}
+
+h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    color: #000;
+}
+h2::after{
+    content: '';
+    display: block;
+    height: .4rem;
+    background: #14a58c;
+    width: 5rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+h3{
+    font-size: 2rem;
+    text-transform:uppercase;
+    font-weight: 300;
+}
+h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 1.5rem
+}
+.box{
+    
+}
+.box p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top:1 rem;
+    padding: 1%;
+}
+/*===========*/
+/*Buttom */
+/*===========*/
+.btn-hero:link,
+.btn-hero:visited,
+.btn{
+    background: #333;
+    border-bottom: 0.3rem, solid #000;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.0rem 3.0rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin: 2.5rem;    
+}
+/*===================*/
+/*paragraph*/
+/*===================*/
+.little-description
+ {font-size: 1.6rem;
+     width: 60%;
+     margin-left: 20%;
+     line-height: 3rem;
+    
+}
+/*===================*/
+/*services*/
+/*===================*/
+section{
+    padding: 1.0rem;
+}
+
+/*===================*/
+/*Header Section*/
+/*===================*/
+header
+{
+    background:linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)), url(../img/hero-bg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    background-attachment:fixed;
+}
+header .row{background-attachment: fixed;}
+ 
+.logo
+    {width: auto;
+    height: 2.1875rem;
+    margin-top: 2.1875rem;
+    float: left;
+}
+
+/*=====================*/
+/*Main Navigation */
+/*=====================*/
+.main-nav{
+          float: right;
+          margin-top: 2.8125rem;
+}
+.main-nav li
+           {
+            display: inline-block;
+            margin-left: 0.9375rem; 
+}
+.main-nav li:first-child
+{
+        margin-left:0 ; 
+}
+.main-nav li a:link,
+.main-nav li a:visited
+   {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(100, 58, 121, 0);
+    padding: 0.1875rem 1rem;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    font-size: 1rem;
+    transform: .3s; 
+}
+
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited
+{
+    background: #643a79;
+    
+}
+.main-nav li.active     
+{background: #643a79;
+}
+.hero-text-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;  
+}
+
+.btn-hero:link,
+.btn-hero:visited
+{
+    background: #eb7d4b;
+    border-color: #c86a40;
+}
+/*=====================*/
+/*Services-section */
+/*=====================*/
+.servics-section
+        {
+         color:#fff;
+        text-align: center;
+         background:linear-gradient(rgba(23, 194, 164, 0.4),rgba(23, 194, 164, 0.4)),url(../img/services.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center bottom;
+            
+}
+.servics-section h2::after{
+    background: 14a58c;
+}
+.service-icon{
+    height: 8rem;
+    margin-top: 4rem;
+    margin-bottom:3.5rem;
+}
+/*=====================*/
+/*Team-section */
+/*=====================*/
+.team-section{
+          background: linear-gradient(rgba(231, 241, 248, 0.2),rgba(231, 241, 248, 0.2)),url(../img/team.jpg);
+           background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            background-attachment:fixed;
+            text-align: center;
+}
+         
+.team-section h2{
+    color: #396be8;
+}
+.team-section h2::after{
+   background: #c8d9e5;
+}
+.team-members{
+    margin-top: 3rem;
+    margin-bottom:  2.5rem;
+    height: 15rem;
+    widows:15rem;
+    border-radius: 50%;
+    padding: 1rem;
+    
+}
+.team-section h3{
+    color: #7accc8;
+}
+.role{
+    color: #30bae7;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: .5rem; 
+    display: inline-block;
+}
+
+.team-section .box{
+    color: #3c4761;
+}
+.social-link{
+    margin-top: 4.5rem;
+
+}
+.social-link ul li{
+    display: inline-block;
+    margin: 0 ;
+    
+}
+.social-link ul li i {
+    color: #fff;
+}
+.social-link ul li a:link i::before{
+    background: #bdd1df;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2rem;
+    padding: .5rem ;
+    transition: .5s
+}
+    
+.social-link ul li a:hover i::before{
+    background: #3cb878;
+    transform: rotate(360deg);
+}
+/*=====================*/
+/*Skills-section */
+/*=====================*/
+.skill-section
+{
+           background: linear-gradient(rgba(231, 241, 248, 0.2),rgba(231, 241, 248, 0.2)),url(../img/Skill.jpg);
+           background-repeat: no-repeat;
+            background-size: cover;
+            
+            background-attachment:fixed;
+            text-align: center;
+}
+
+
+.skill-section h2,
+.skill-section h3{
+    
+    color: #3c4761;
+    
+}
+.skill-section h2::after{
+    background: #dfe8ed;
+}
+.skill-section .box{
+    margin-top:4.5rem;
+}
+svg.radial-progress circle{
+    stroke-width:5;
+}
+svg.radial-progress text{
+    fill:#3c4761;
+    font-size: 1.6rem;
+}
+svg.web-design circle{
+    stroke:#30bae7;
+}
+svg.html-design circle{
+    stroke:#d74680;
+}
+svg.graphics-design circle{
+    stroke:#15c7a8;
+}
+svg.ui-ux circle{
+    stroke:#eb7d4b;
+}
+/*=====================*/
+/*Portfolio-section */
+/*=====================*/
+.portfolio-section{
+    background: linear-gradient(rgba(215, 70, 128, 0.3),rgba(215, 70, 128, 0.3)),url(../img/portfoli.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center; 
+}
+.portfolio-section h2{
+    color: #3c4761;
+}
+.portfolio-section h2::after{
+    background: #e5c37f;
+}
+.portfoli-filter{
+    margin:4.5rem;
+}
+.portfolio-filter button{
+    background: #fff;
+    font-size: 1rem;
+        border:0 ;
+    border-radius:.5rem;
+    text-transform: uppercase;
+    color: #3c4761;
+    margin: 0 .5rem; 
+    transition: .5s;
+    padding: 1rem;
+    margin-top: 2rem;
+        
+}
+.portfolio-section button:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0.5rem 0.10rem rgba(213, 227, 93, 0.76);
+}
+ .portfolio-image{
+    width: 94%;
+    height: 20rem;
+     margin-top: 2rem;
+}
+.portfolio-section .col:nth-child(2),.portfolio-section .col:nth-child(3),.portfolio-section .col:nth-child(4){
+    margin-left: 0;
+   
+}
+.btn-load-more{
+    background:#17c2a4 ;
+    border: #14a58c;
+}
+.portfolio-section .mixitup-control-active{
+    background: #17c2a4;
+}
